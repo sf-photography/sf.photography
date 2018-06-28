@@ -19,7 +19,7 @@ layout: null
         {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
+        {% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
       {% endunless %}
