@@ -10,3 +10,5 @@ subclass: 'post'
 author: phillfarrugia
 link: 'https://www.phillfarrugia.com/2018/03/05/fun-shit-cool-people-nice-places/'
 ---
+
+Doing incredibly fun things, surrounded by great people in ridiculously surreal places.
